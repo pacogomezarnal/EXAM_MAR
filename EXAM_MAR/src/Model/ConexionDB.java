@@ -49,7 +49,7 @@ public class ConexionDB {
 	//valores por defecto
 	public static ConexionDB getInstance() {
 	      if(instance == null) {
-	    	  instance = new ConexionDB(ConexionDB.HOST,ConexionDB.BBDD,ConexionDB.USER,ConexionDB.PASS);;
+	    	  instance = new ConexionDB(HOST,BBDD,USER,PASS);; //error -->ConexionDB.HOST,ConexionDB.BBDD,ConexionDB.USER,ConexionDB.PASS
 		  }
 	      return instance;
 	  }
